@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-<center> # 회의록 </center>
+# 회의록
 
 * 일시 : 2024/__/__ 16:00 - 17:00
 * 장소 : Zoom Meetings
