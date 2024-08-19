@@ -1,0 +1,40 @@
+title: "Meeting Report"
+labels: ["Meeting Report"]
+body:
+  - type: input
+    id: date
+    attributes:
+      label: Date
+    validations:
+      required: true
+  - type: input
+    id: Place
+    attributes:
+      label: Place
+      placeholder: "Zoom Meetings"
+    validations:
+      required: true
+  - type: input
+    id: Attendees
+    attributes:
+      label: Attendees
+      placeholder: "강경준, 김재겸, 원호영, 유선우"
+    validations:
+      required: true
+  - type: textarea
+    id: Details
+    attributes:
+      label: Details
+      description: "Topics and Details"
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: true
+  - type: input
+    id: Special Note
+    attributes:
+      label: Special Note
