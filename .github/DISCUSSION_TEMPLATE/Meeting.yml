@@ -35,6 +35,6 @@ body:
     validations:
       required: true
   - type: input
-    id: Special Note
+    id: Special_Note
     attributes:
       label: Special Note
