@@ -5,6 +5,7 @@ body:
     id: Week
     attributes:
       label: Week
+      placeholder: "Week5 / 2024.09.02-2024.09.06"
     validations:
       required: true
   - type: textarea
