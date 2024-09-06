@@ -1,0 +1,42 @@
+title: "Retro Report"
+labels: ["Retro Report"]
+body:
+  - type: input
+    id: Week
+    attributes:
+      label: Week
+    validations:
+      required: true
+  - type: textarea
+    id: Keep
+    attributes:
+      label: Keep
+      description: "Things worth keeping doing"
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+  - type: textarea
+    id: Problem
+    attributes:
+      label: Problem
+      description: "Things to improve"
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+  - type: textarea
+    id: Try
+    attributes:
+      label: Try
+      description: "Things to try"
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
